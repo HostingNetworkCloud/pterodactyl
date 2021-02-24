@@ -13,7 +13,7 @@ sleep 1
 echo -e "\e[33mPanel wird heruntergefahren..."
 sleep 1
 php /var/www/pterodactyl/artisan down
-echo -e "\e[91mPanel heruntergefahren..."
+echo -e "\e[91mPanel heruntergefahren"
 
 cd /var/www/pterodactyl/resources/scripts
 cd ../..
@@ -25,7 +25,7 @@ yarn add @emotion/react
 rm -rf /var/www/pterodactyl/resources/scripts/hoc/requireServerPermission.tsx
 clear
 
-echo -e "\e[33mPanel Rebuild wird gestartet..."
+echo -e "\e[33mPanel Rebuild wird gestartet"
 yarn build:production
 cd ../../..
 clear
